@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Loading Bars | Donutty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="bars-container">
+        <div id="donut-1"><div id="donut-number"></div></div>
+
+        <div id="donut-2" 
+            data-donutty
+            data-value="38"
+            data-round="false"
+            data-padding="0"
+            data-thickness="5"
+            data-anchor="top"
+            data-dir="rtl"
+            data-transition="all 1.2s cubic-bezier(0.57, 0.13, 0.18, 0.98)"
+        ><div id="donut-number-2"></div></div>
+
+        <div id="donut-3"
+            data-donutty
+            data-value="50"
+            data-round="false"
+            data-color="#202125"
+            data-bg="#f08080"
+            data-padding="3"
+            data-thickness="9"
+            data-anchor="top"
+            data-dir="rtl"
+            data-transition="all 1.2s cubic-bezier(0.57, 0.13, 0.18, 0.98)"    
+        ><div id="donut-number-3"></div></div>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+    <script src="./js/donutty.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
